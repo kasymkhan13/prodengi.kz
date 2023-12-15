@@ -1,0 +1,24 @@
+body {
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav .nav__img {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-shadow: 0 0 5px 1px;
+}
+
+.nav .nav__img:hover {
+    box-shadow: 0 0 7px 2px;
+    color: green;
+    padding: 5px;
+}
+
+.nav .nav__img img {
+    width: 100%;
+    height: 100%;
+}

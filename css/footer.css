@@ -1,0 +1,27 @@
+
+.footer {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 2px;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    background-color: white;
+}
+.footer .footer__message {
+    background-color: white;
+}
+
+.footer .footer__message img {
+    width: 70%;
+    height: 70%;
+    padding: 20px 0 0 0;
+    background-color: white;
+}
+
+.footer:hover {
+    box-shadow: 0 0 5px 5px;
+    color: green;
+}
